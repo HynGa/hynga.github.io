@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="docReady()">
+    <h2>Bài tập máy tính đơn giản</h2>
+    <div id="calculator">
+    <p id="result">0</p><br>
+    
+    <button id="number1" onclick="button(1)">1</button>
+    <button id="number2" onclick="button(2)">2</button>
+    <button id="number3" onclick="button(3)">3</button>
+    <button id="add" onclick="operator('+')">+</button> <br>
+
+    <button id="number4" onclick="button(4)">4</button>
+    <button id="number5" onclick="button(5)">5</button>
+    <button id="number6" onclick="button(6)">6</button>
+    <button id="subtract" onclick="operator('-')">-</button> <br>
+
+    <button id="number7" onclick="button(7)">7</button>
+    <button id="number8" onclick="button(8)">8</button>
+    <button id="number9" onclick="button(9)">9</button>
+    <button id="multiply" onclick="operator('*')">x</button> <br>
+
+    <button id="clear" onclick="clear1()">C</button>
+    <button id="number0" onclick="button(0)">0</button>
+    <button id="equal" onclick="equal()">=</button>
+    <button id="divide" onclick="operator('/')">/</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

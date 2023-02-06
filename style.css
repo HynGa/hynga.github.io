@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 30px;
+}
+
+#calculator {
+    margin: auto;
+    width: 80%;
+    background-color: blue;
+    max-width: 600px;
+}
+
+#result {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#calculator > button {
+    box-sizing: border-box;
+    background-color: bisque;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    min-height: none;height: 60px;
+    width: 20%;
+}
+
+#calculator > button:hover {
+    background-color: aqua;
+}
