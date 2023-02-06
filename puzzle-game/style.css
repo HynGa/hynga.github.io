@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 32%;
+    border: 1px solid #555;
+}
+
+p {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+}
